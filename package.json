@@ -1,0 +1,16 @@
+{
+  "name": "sql-studio-bookmarklet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SQL Studio: a bookmarklet for querying Microsoft Dataverse / Dynamics 365 with SQL",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@gfx/zopfli": "^1.0.15",
+    "@swc/core": "^1.16.18",
+    "esbuild": "0.28.2"
+  }
+}

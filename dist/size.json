@@ -1,0 +1,100 @@
+{
+  "version": "1.0.0",
+  "minifiedBytes": 1929851,
+  "deflatedBytes": 627047,
+  "bookmarkletChars": 784738,
+  "limit": 2097152,
+  "headroom": 1312414,
+  "edgeCap": 2097152,
+  "sha256": "5cffc784543ee181c4b383872543e896f0ec9b0ac809642508a129fe7c3917e5",
+  "groups": {
+    "lexer+parser+format": {
+      "bytes": 150528,
+      "budget": 163840
+    },
+    "api+meta+xml": {
+      "bytes": 117011,
+      "budget": 112640
+    },
+    "types+functions+messages": {
+      "bytes": 256207,
+      "budget": 245760
+    },
+    "icons+dom+store+util+main": {
+      "bytes": 42624,
+      "budget": 51200
+    },
+    "shell+state+dialogs": {
+      "bytes": 295320,
+      "budget": 286720
+    },
+    "styles": {
+      "bytes": 41326,
+      "budget": 51200
+    },
+    "compile+exec": {
+      "bytes": 129112,
+      "budget": 153600
+    },
+    "planner+fetchxml+metatables": {
+      "bytes": 204611,
+      "budget": 225280
+    },
+    "editor+complete": {
+      "bytes": 222823,
+      "budget": 215040
+    },
+    "grid+results+export": {
+      "bytes": 275625,
+      "budget": 184320
+    },
+    "explorer": {
+      "bytes": 68442,
+      "budget": 61440
+    },
+    "dml+session+fetch2sql": {
+      "bytes": 111362,
+      "budget": 163840
+    },
+    "other": {
+      "bytes": 14758,
+      "budget": null
+    }
+  },
+  "modules": {
+    "src/engine/lexer.js": 5419,
+    "src/core/xml.js": 9989,
+    "src/data/api.js": 59650,
+    "src/engine/messages.js": 21745,
+    "src/core/util.js": 32384,
+    "src/engine/types.js": 79399,
+    "src/data/meta.js": 47372,
+    "src/core/store.js": 527,
+    "src/ui/state.js": 24361,
+    "src/ui/icons.js": 5753,
+    "src/ui/dom.js": 2850,
+    "src/ui/styles.js": 41326,
+    "src/engine/parser.js": 80558,
+    "src/ui/shell.js": 81285,
+    "src/engine/format.js": 64551,
+    "src/engine/functions.js": 155063,
+    "src/engine/compile.js": 49502,
+    "src/engine/exec.js": 79610,
+    "src/engine/metatables.js": 35339,
+    "src/ui/editor.js": 93567,
+    "src/ui/complete.js": 129256,
+    "src/ui/dialogs.js": 189674,
+    "src/ui/grid.js": 94098,
+    "src/ui/export.js": 54711,
+    "src/ui/results.js": 126816,
+    "src/ui/explorer.js": 68442,
+    "src/engine/fetchxml.js": 48984,
+    "src/engine/planner.js": 120288,
+    "src/engine/dml.js": 53426,
+    "src/engine/csv.js": 10350,
+    "src/engine/session.js": 47933,
+    "src/engine/fetch2sql.js": 10003,
+    "src/app.js": 4408,
+    "src/main.js": 1110
+  }
+}
