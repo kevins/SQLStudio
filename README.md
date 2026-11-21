@@ -4,6 +4,10 @@ A Microsoft Edge bookmarklet for querying and changing Microsoft Dataverse / Dyn
 right in your signed-in browser session. Nothing to install and no server: it runs in the page and talks only to that
 environment's own Web API (`/api/data/v9.2/`).
 
+![SQL Studio in action: a query of revenue by city typed with suggestions, its results as a grid, a chart and the FetchXML sent, then an UPDATE that opens a preview of the change and is confirmed](docs/gallery/SQLStudio-demo.gif)
+
+The same demo as a [video (MP4)](docs/gallery/SQLStudio-demo.mp4).
+
 **Install:** open [kevins.github.io](https://kevins.github.io/) and drag the **SQL Studio** button onto your favourites
 bar (or open [`dist/install.html`](dist/install.html)). Then open any model-driven app page and click the favourite.
 
